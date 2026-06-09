@@ -43,4 +43,5 @@ jobs:
           POSTGRES_DB: django_todo
           POSTGRES_USER: django_user
           POSTGRES_PASSWORD: django_password
+          DATABASE_HOST: localhost  # ← 追加
         run: pytest
